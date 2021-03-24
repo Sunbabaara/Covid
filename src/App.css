@@ -1,11 +1,12 @@
 .App {
   text-align: center;
+  background-color: fuchsia;
 }
 header{
   display: flex;
   justify-content: center;
   color: white;
-  background-color: steelblue;
+  background-color: grey;
 }
 section{
   display: flex;
@@ -17,6 +18,7 @@ section{
   width: 300px;
   margin: 20px;
   box-shadow: 0 6px 5px 3px grey;
+  border-radius: 150px;
 }
 .confirmed-case{
 background-color: yellow;
